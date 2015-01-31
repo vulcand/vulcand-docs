@@ -254,7 +254,7 @@ This command will read the cert and key and update the certificate
 
 .. code-block:: sh
 
- $ vulcanctl host set_keypair -host <host> -cert=</path-to/chain.crt> -privateKey=</path-to/key>
+ $ vulcanctl host set_keypair -name <host> -cert=</path-to/chain.crt> -privateKey=</path-to/key>
 
 Status
 ~~~~~~
